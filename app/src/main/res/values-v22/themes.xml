@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.FoodRecipes.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColorHint">#595959</item>
+        <item name="android:searchHintIcon">@drawable/ic_search_foreground</item>
+
+    </style>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Food recipes</string>
+    <string name="homepage">Homepage</string>
+    <string name="favorites">Favorites</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="preparation">Preparation</string>
+    <string name="check_these_randomly_selected_recipes_and_save_what_you_like">Check these randomly selected recipes
+        and save what you like
+    </string>
+</resources>

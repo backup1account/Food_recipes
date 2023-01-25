@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/favorites_cardview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="3dp"
+        android:layout_margin="4dp"
+        app:cardUseCompatPadding="true">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <ImageView
+                android:id="@+id/fav_item_image"
+                android:layout_width="165dp"
+                android:layout_height="150dp"/>
+
+        <TextView
+                android:id="@+id/fav_item_title"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#494949"
+                android:textSize="15sp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <ImageButton
+                android:id="@+id/add_favorite_recipe_btn2"
+                android:background="@drawable/add_favorite_foreground"
+                android:layout_gravity="end|bottom"
+                android:layout_width="55dp"
+                android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

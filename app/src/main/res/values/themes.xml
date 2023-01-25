@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.FoodRecipes" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/base_color</item>
+        <item name="colorPrimaryVariant">@color/base_color</item>
+        <item name="colorOnPrimary">@color/darker_white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#80306B</item>
+        <item name="colorSecondaryVariant">#6A1A56</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+
+    <style name="Theme.FoodRecipes.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColorHint">#858585</item>
+    </style>
+</resources>
